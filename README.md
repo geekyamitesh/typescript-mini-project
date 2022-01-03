@@ -1,5 +1,5 @@
-# typescript-tutorial
-All the course files for the TypeScript tutorial playlist on The Net Ninja YouTube channel.
+# typescript-mini-project
+This is typescript mini project to learn about new tech stack and implementation about typescript.How can we use typescript properties.
 
-## How to use the files
-Each lesson has it's own branch. To see the code for a lesson, select that lesson from the branch drop-down.
+## Project Name : Finance Time
+As a professtional person we need something which should help in tracking of finance of daily bases in business
