@@ -1,4 +1,4 @@
-"use strict";
+import { Invoice } from './classes/invoices.js';
 // let character = 'Amitesh';
 // let age=20;
 // let IsclassToday=true;
@@ -69,8 +69,16 @@ DOM in typescript same like javascript we target elemnt of html tag to manipulat
 // }
 // */
 // console.log(anchor?.href);
+//Class
+const invOne = new Invoice('Amitesh', 'household products', 30);
+const invTwo = new Invoice('Aditya', 'Crockery Product', 30);
+let invoices = [];
+invoices.push(invOne);
+invoices.push(invTwo);
+invoices.forEach(inv => {
+    console.log(inv.client, inv.amount, inv.format());
+});
 const form = document.querySelector('.new-item-form');
-console.log(form.children);
 //input
 const type = document.querySelector('#type');
 const tofrom = document.querySelector('#tofrom');
