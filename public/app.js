@@ -88,6 +88,37 @@ DOM in typescript same like javascript we target elemnt of html tag to manipulat
 // invoices.forEach(inv =>{
 //     console.log(inv.client,inv.amount,inv.format());
 // })
+
+/*
+
+Interfaces and Types In Class with help of Implements
+
+interface Students {
+  x: string;
+  y: string;
+}
+
+class College implements Students {
+  x = 'Amitesh';
+  y = 'Aditya';
+}
+
+type students1 = {
+   x: string;
+   y:  string;
+};
+
+class College2 implements Students1 {
+  x = 'Shubham';
+  y = 'Stayam';
+}
+
+
+
+
+
+
+*/
 const form = document.querySelector('.new-item-form');
 //input
 const type = document.querySelector('#type');
